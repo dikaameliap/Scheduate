@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Scheduate</string>
+    <string name="title1">Welcome</string>
+    <string name="title2">Your dream is coming</string>
+    <string name="title3">Benefit</string>
+    <string name="title4">Log in</string>
+    <string name="description1">Hai, thanks for downloading on Scheduate app.</string>
+    <string name="description2">This app will help you find the best events at an easy way price.</string>
+    <string name="description3">Find the relationships and experiences you want in Scheduate app.</string>
+    <string name="description4">Register and select what event you want.</string>
+    <string name="selamat_datang">Selamat Datang</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">Logout</string>
+    <string name="description">Scheduate merupakan sebuah aplikasi yang dapat mengatur dan mengingatkan jadwal sidang akhir maupun seminar proposal. Dengan aplikasi ini user dengan mudah mengingat jadwal yang sudah ditentukan oleh dosen, selain itu user juga dapat mengetahui jika terdapat perubahan jadwal maupun tempat. Aplikasi ini diperuntukkan untuk mahasiswa dan dosen di Politeknik Negeri Ujung Pandang.</string>
+</resources>

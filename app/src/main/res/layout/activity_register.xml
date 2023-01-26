@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    tools:context=".Register">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:text="SIGN UP"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Let's help you meet up your tasks"/>
+
+    <EditText
+        android:id="@+id/R_ETnama"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:hint="Enter your full name"/>
+
+    <EditText
+        android:id="@+id/R_ETemail"
+        android:inputType="textEmailAddress"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:hint="Enter your email"/>
+
+    <EditText
+        android:id="@+id/R_EThp"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:hint="Nomor Handphone"/>
+
+    <EditText
+        android:id="@+id/R_ETpassword"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:hint="Create password"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/R_BTN"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius="20dp"
+        android:text="Register"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="Already have an account? "/>
+
+        <TextView
+            android:id="@+id/R_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:textColor="@color/blue_light"/>
+
+    </LinearLayout>
+
+</LinearLayout>
